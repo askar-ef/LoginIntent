@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/bg_apps"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:fontFamily="@font/poppins_semibold"
+        android:id="@+id/txt_homepage"
+        android:textColor="@color/dark_blue"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Homepage"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="200dp"
+        />
+
+    <TextView
+        android:id="@+id/txt_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Hello, World!"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>
